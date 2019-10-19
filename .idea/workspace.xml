@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/array/FindDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/MaxSumpathInTwoArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/MissingAndRepeating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/ProductArrayPuzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/META-INF/DSA.kotlin_module" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/PairWithSumInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/StockBUYsELL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,22 +36,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MissingAndRepeating">
+  <component name="RunManager" selected="Application.PairWithSumInSortedArray">
     <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.array.FindDuplicates" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxSumpathInTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.MaxSumpathInTwoArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +63,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductArrayPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.ProductArrayPuzzle" />
+    <configuration name="PairWithSumInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.PairWithSumInSortedArray" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockBUYsELL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.StockBUYsELL" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.TrappingRainWater" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -92,10 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairWithSumInSortedArray" />
+        <item itemvalue="Application.TrappingRainWater" />
+        <item itemvalue="Application.StockBUYsELL" />
         <item itemvalue="Application.MissingAndRepeating" />
         <item itemvalue="Application.FindDuplicates" />
-        <item itemvalue="Application.ProductArrayPuzzle" />
-        <item itemvalue="Application.MaxSumpathInTwoArray" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +130,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
