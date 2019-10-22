@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="" />
+    <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/strings/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/AnagramPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/UpperCaseConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +42,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreeWayPartitioning">
-    <configuration name="MissingAndRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.MissingAndRepeating" />
+  <component name="RunManager" selected="Application.UpperCaseConversion">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.Anagram" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,25 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairWithSumInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.PairWithSumInSortedArray" />
+    <configuration name="AnagramPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.AnagramPalindrome" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockBUYsELL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.StockBUYsELL" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.TrappingRainWater" />
+    <configuration name="UpperCaseConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.UpperCaseConversion" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.palindrome" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UpperCaseConversion" />
+        <item itemvalue="Application.AnagramPalindrome" />
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.palindrome" />
         <item itemvalue="Application.ThreeWayPartitioning" />
-        <item itemvalue="Application.PairWithSumInSortedArray" />
-        <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.StockBUYsELL" />
-        <item itemvalue="Application.MissingAndRepeating" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +151,11 @@
           <url>file://$PROJECT_DIR$/src/com/array/MissingAndRepeating.java</url>
           <line>94</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/strings/palindrome.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
