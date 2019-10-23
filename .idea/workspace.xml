@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strings/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/AnagramPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/UpperCaseConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/GoodOrBadString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/MergeTwoString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/SaveIronMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/SortTheString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,9 +42,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UpperCaseConversion">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.Anagram" />
+  <component name="RunManager" selected="Application.GoodOrBadString">
+    <configuration name="GoodOrBadString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.GoodOrBadString" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnagramPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.AnagramPalindrome" />
+    <configuration name="MergeTwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.MergeTwoString" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -69,12 +69,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeWayPartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.ThreeWayPartitioning" />
+    <configuration name="SaveIronMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.SaveIronMan" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.SortTheString" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,26 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.palindrome" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoodOrBadString" />
+        <item itemvalue="Application.SaveIronMan" />
+        <item itemvalue="Application.MergeTwoString" />
+        <item itemvalue="Application.SortTheString" />
         <item itemvalue="Application.UpperCaseConversion" />
-        <item itemvalue="Application.AnagramPalindrome" />
-        <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.palindrome" />
-        <item itemvalue="Application.ThreeWayPartitioning" />
       </list>
     </recent_temporary>
   </component>
