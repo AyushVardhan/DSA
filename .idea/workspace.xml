@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strings/GoodOrBadString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/MergeTwoString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/SaveIronMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/SortTheString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/CheckSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/ExtractMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/ImplementStrStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/ReverseWordsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/URLifyString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,9 +43,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GoodOrBadString">
-    <configuration name="GoodOrBadString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.GoodOrBadString" />
+  <component name="RunManager" selected="Application.CheckSubsequence">
+    <configuration name="CheckSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.CheckSubsequence" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.MergeTwoString" />
+    <configuration name="ExtractMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.ExtractMaximum" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaveIronMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.SaveIronMan" />
+    <configuration name="ImplementStrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.ImplementStrStr" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.SortTheString" />
+    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.ReverseWordsInString" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpperCaseConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.UpperCaseConversion" />
+    <configuration name="URLifyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.URLifyString" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoodOrBadString" />
-        <item itemvalue="Application.SaveIronMan" />
-        <item itemvalue="Application.MergeTwoString" />
-        <item itemvalue="Application.SortTheString" />
-        <item itemvalue="Application.UpperCaseConversion" />
+        <item itemvalue="Application.CheckSubsequence" />
+        <item itemvalue="Application.ImplementStrStr" />
+        <item itemvalue="Application.ReverseWordsInString" />
+        <item itemvalue="Application.ExtractMaximum" />
+        <item itemvalue="Application.URLifyString" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +157,11 @@
           <url>file://$PROJECT_DIR$/src/com/strings/palindrome.java</url>
           <line>44</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/strings/ExtractMaximum.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
