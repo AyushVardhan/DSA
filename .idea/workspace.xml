@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strings/CheckSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/ExtractMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/ImplementStrStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/ReverseWordsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/URLifyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/CheckForStringRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/CheckingTwoStringForKAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +40,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckSubsequence">
+  <component name="RunManager" selected="Application.CheckingTwoStringForKAnagrams">
+    <configuration name="CheckForStringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.CheckForStringRotation" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.strings.CheckSubsequence" />
       <module name="DSA" />
@@ -57,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtractMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.ExtractMaximum" />
+    <configuration name="CheckingTwoStringForKAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.CheckingTwoStringForKAnagrams" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -96,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLifyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.URLifyString" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckingTwoStringForKAnagrams" />
+        <item itemvalue="Application.CheckForStringRotation" />
         <item itemvalue="Application.CheckSubsequence" />
         <item itemvalue="Application.ImplementStrStr" />
         <item itemvalue="Application.ReverseWordsInString" />
-        <item itemvalue="Application.ExtractMaximum" />
-        <item itemvalue="Application.URLifyString" />
       </list>
     </recent_temporary>
   </component>
