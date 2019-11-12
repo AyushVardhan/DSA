@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strings/CheckForStringRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/CheckingTwoStringForKAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/AnagramOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/UncommonCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SKv7KPOluxWdPlzMHvun3WNf6B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/array" />
@@ -40,7 +43,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckingTwoStringForKAnagrams">
+  <component name="RunManager" selected="Application.AnagramOfStrings">
+    <configuration name="AnagramOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.AnagramOfStrings" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckForStringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.strings.CheckForStringRotation" />
       <module name="DSA" />
@@ -80,21 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementStrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.ImplementStrStr" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.ReverseWordsInString" />
+    <configuration name="UncommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.UncommonCharacters" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnagramOfStrings" />
+        <item itemvalue="Application.UncommonCharacters" />
         <item itemvalue="Application.CheckingTwoStringForKAnagrams" />
         <item itemvalue="Application.CheckForStringRotation" />
         <item itemvalue="Application.CheckSubsequence" />
-        <item itemvalue="Application.ImplementStrStr" />
-        <item itemvalue="Application.ReverseWordsInString" />
       </list>
     </recent_temporary>
   </component>
