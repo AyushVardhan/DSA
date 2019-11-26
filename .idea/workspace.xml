@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strings/FirstRepeatedCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/NonRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/LongestPalindromeSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +25,9 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/array" />
@@ -43,22 +45,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NonRepeatingCharacter">
+  <component name="RunManager" selected="Application.LongestPalindromeSubstring">
     <configuration name="AnagramOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.strings.AnagramOfStrings" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckingTwoStringForKAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.CheckingTwoStringForKAnagrams" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -83,6 +72,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongestDistinctCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.LongestDistinctCharacter" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindromeSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.LongestPalindromeSubstring" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.strings.NonRepeatingCharacter" />
       <module name="DSA" />
@@ -96,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncommonCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.UncommonCharacters" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindromeSubstring" />
+        <item itemvalue="Application.LongestDistinctCharacter" />
         <item itemvalue="Application.NonRepeatingCharacter" />
         <item itemvalue="Application.FirstRepeatedCharacter" />
         <item itemvalue="Application.AnagramOfStrings" />
-        <item itemvalue="Application.UncommonCharacters" />
-        <item itemvalue="Application.CheckingTwoStringForKAnagrams" />
       </list>
     </recent_temporary>
   </component>
