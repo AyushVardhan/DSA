@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strings/LongestPalindromeSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/KthCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/NearestMultipleOf10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strings/SmallestWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,22 +47,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindromeSubstring">
-    <configuration name="AnagramOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.AnagramOfStrings" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstRepeatedCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.FirstRepeatedCharacter" />
+  <component name="RunManager" selected="Application.NearestMultipleOf10">
+    <configuration name="KthCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.KthCharacter" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -98,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NearestMultipleOf10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strings.NearestMultipleOf10" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.strings.NonRepeatingCharacter" />
       <module name="DSA" />
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NearestMultipleOf10" />
+        <item itemvalue="Application.KthCharacter" />
         <item itemvalue="Application.LongestPalindromeSubstring" />
         <item itemvalue="Application.LongestDistinctCharacter" />
         <item itemvalue="Application.NonRepeatingCharacter" />
-        <item itemvalue="Application.FirstRepeatedCharacter" />
-        <item itemvalue="Application.AnagramOfStrings" />
       </list>
     </recent_temporary>
   </component>
