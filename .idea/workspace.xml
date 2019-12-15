@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strings/KthCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/NearestMultipleOf10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strings/SmallestWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rough/SortedSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rough/practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/FacingSun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/MagnetArrayProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/SearchingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,13 +49,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NearestMultipleOf10">
-    <configuration name="KthCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.KthCharacter" />
+  <component name="RunManager" selected="Application.MagnetArrayProblem">
+    <configuration name="FacingSun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.FacingSun" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.strings.*" />
+          <option name="PATTERN" value="com.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestDistinctCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.LongestDistinctCharacter" />
+    <configuration name="MagnetArrayProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.MagnetArrayProblem" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.strings.*" />
+          <option name="PATTERN" value="com.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromeSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.LongestPalindromeSubstring" />
+    <configuration name="SearchingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.SearchingNumber" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.strings.*" />
+          <option name="PATTERN" value="com.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NearestMultipleOf10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.NearestMultipleOf10" />
+    <configuration name="SortedSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rough.SortedSubsequence" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.strings.*" />
+          <option name="PATTERN" value="com.rough.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strings.NonRepeatingCharacter" />
+    <configuration name="practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rough.practice" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.strings.*" />
+          <option name="PATTERN" value="com.rough.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NearestMultipleOf10" />
-        <item itemvalue="Application.KthCharacter" />
-        <item itemvalue="Application.LongestPalindromeSubstring" />
-        <item itemvalue="Application.LongestDistinctCharacter" />
-        <item itemvalue="Application.NonRepeatingCharacter" />
+        <item itemvalue="Application.MagnetArrayProblem" />
+        <item itemvalue="Application.FacingSun" />
+        <item itemvalue="Application.SearchingNumber" />
+        <item itemvalue="Application.SortedSubsequence" />
+        <item itemvalue="Application.practice" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +178,24 @@
           <url>file://$PROJECT_DIR$/src/com/strings/NonRepeatingCharacter.java</url>
           <line>27</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mathematical/AllFactors.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/rough/SortedSubsequence.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/searching/MagnetArrayProblem.java</url>
+          <line>8</line>
+          <properties class="com.searching.MagnetArrayProblem" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
