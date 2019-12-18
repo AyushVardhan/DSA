@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/rough/SortedSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rough/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/searching/FacingSun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/searching/MagnetArrayProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/searching/SearchingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/FloorArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/NumOfOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/SearchInRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/TransitionPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,9 +49,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MagnetArrayProblem">
-    <configuration name="FacingSun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.FacingSun" />
+  <component name="RunManager" selected="Application.TransitionPoint">
+    <configuration name="FloorArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.FloorArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MagnetArrayProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.MagnetArrayProblem" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.MissingNumber" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.SearchingNumber" />
+    <configuration name="NumOfOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.NumOfOccurence" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rough.SortedSubsequence" />
+    <configuration name="SearchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.SearchInRotatedArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rough.*" />
+          <option name="PATTERN" value="com.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rough.practice" />
+    <configuration name="TransitionPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.searching.TransitionPoint" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rough.*" />
+          <option name="PATTERN" value="com.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MagnetArrayProblem" />
-        <item itemvalue="Application.FacingSun" />
-        <item itemvalue="Application.SearchingNumber" />
-        <item itemvalue="Application.SortedSubsequence" />
-        <item itemvalue="Application.practice" />
+        <item itemvalue="Application.TransitionPoint" />
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.SearchInRotatedArray" />
+        <item itemvalue="Application.NumOfOccurence" />
+        <item itemvalue="Application.FloorArray" />
       </list>
     </recent_temporary>
   </component>
@@ -188,14 +188,6 @@
           <url>file://$PROJECT_DIR$/src/com/rough/SortedSubsequence.java</url>
           <line>29</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/searching/MagnetArrayProblem.java</url>
-          <line>8</line>
-          <properties class="com.searching.MagnetArrayProblem" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
