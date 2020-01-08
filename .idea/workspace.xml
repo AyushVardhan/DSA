@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/searching/FloorArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/searching/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/searching/NumOfOccurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/searching/SearchInRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/searching/TransitionPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/SmallestPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/BinaryArraySorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/SortingZeroOneTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/checkSorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,13 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransitionPoint">
-    <configuration name="FloorArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.FloorArray" />
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="BinaryArraySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.BinaryArraySorting" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.searching.*" />
+          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.MissingNumber" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.BubbleSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.searching.*" />
+          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumOfOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.NumOfOccurence" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.InsertionSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.searching.*" />
+          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.SearchInRotatedArray" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.SelectionSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.searching.*" />
+          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransitionPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.searching.TransitionPoint" />
+    <configuration name="SortingZeroOneTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.SortingZeroOneTwo" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.searching.*" />
+          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TransitionPoint" />
-        <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.SearchInRotatedArray" />
-        <item itemvalue="Application.NumOfOccurence" />
-        <item itemvalue="Application.FloorArray" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SortingZeroOneTwo" />
+        <item itemvalue="Application.BinaryArraySorting" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +190,16 @@
           <url>file://$PROJECT_DIR$/src/com/rough/SortedSubsequence.java</url>
           <line>29</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/searching/TransitionPoint.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sorting/InsertionSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
