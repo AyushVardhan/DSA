@@ -2,8 +2,9 @@ package com.sorting;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int arr[] = {411, 575, 686, 384, 887,183};
+        int arr[] = {1,4,25,3,2};
         int n = 6;
+        int count = 0;
 
         for (int i = 0; i < n-1; i++) {
             int min_idx = i;
@@ -13,15 +14,19 @@ public class SelectionSort {
                 }
             }
 
-            int tmp;
-            tmp = arr[min_idx];
-            arr[min_idx]=arr[i];
-            arr[i]=tmp;
+            if (min_idx!=i){
+                int tmp;
+                tmp = arr[min_idx];
+                arr[min_idx]=arr[i];
+                arr[i]=tmp;
+                count++;
+            }
         }
 
         for (int num :
                 arr) {
             System.out.print(num + " ");
         }
+        System.out.println("In swaps: " + count);
     }
 }

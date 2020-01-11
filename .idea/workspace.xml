@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/SortTheHalf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/mergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/MinSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/RelativeSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/SortElementByFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/TripletFamily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sorting/TripletSumInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -47,22 +51,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortTheHalf">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.InsertionSort" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.QuickSort" />
+  <component name="RunManager" selected="Application.TripletFamily">
+    <configuration name="MinSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.MinSwaps" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTheHalf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.SortTheHalf" />
+    <configuration name="SortElementByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.SortElementByFrequency" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.mergeSort" />
+    <configuration name="TripletFamily" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.TripletFamily" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripletSumInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.TripletSumInArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortTheHalf" />
-        <item itemvalue="Application.mergeSort" />
-        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.TripletFamily" />
+        <item itemvalue="Application.SortElementByFrequency" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.MinSwaps" />
+        <item itemvalue="Application.TripletSumInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +200,11 @@
           <url>file://$PROJECT_DIR$/src/com/sorting/InsertionSort.java</url>
           <line>7</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sorting/RelativeSorting.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
