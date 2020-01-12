@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/MinSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/RelativeSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/SortElementByFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/TripletFamily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/TripletSumInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hashing/ArraySubsetOfAnother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hashing/FindingDistinctElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hashing/NutsAndBolt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +48,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TripletFamily">
-    <configuration name="MinSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.MinSwaps" />
+  <component name="RunManager" selected="Application.NutsAndBolt">
+    <configuration name="ArraySubsetOfAnother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashing.ArraySubsetOfAnother" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
+          <option name="PATTERN" value="com.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +62,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.SelectionSort" />
+    <configuration name="FindingDistinctElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashing.FindingDistinctElement" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
+          <option name="PATTERN" value="com.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NutsAndBolt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashing.NutsAndBolt" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TripletSumInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.TripletSumInArray" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NutsAndBolt" />
+        <item itemvalue="Application.ArraySubsetOfAnother" />
+        <item itemvalue="Application.FindingDistinctElement" />
         <item itemvalue="Application.TripletFamily" />
         <item itemvalue="Application.SortElementByFrequency" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.MinSwaps" />
-        <item itemvalue="Application.TripletSumInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +202,16 @@
           <url>file://$PROJECT_DIR$/src/com/sorting/RelativeSorting.java</url>
           <line>41</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hashing/FindingDistinctElement.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hashing/FindingDistinctElement.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
