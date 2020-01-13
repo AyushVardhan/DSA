@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hashing/ArraySubsetOfAnother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hashing/FindingDistinctElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hashing/NutsAndBolt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hashing/EqualArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hashing/FirstElementOccuringNtimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hashing/FrequenciesOfLimitedRangeArrayElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,9 +48,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NutsAndBolt">
+  <component name="RunManager" selected="Application.FrequenciesOfLimitedRangeArrayElements">
     <configuration name="ArraySubsetOfAnother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hashing.ArraySubsetOfAnother" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashing.EqualArrays" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -75,6 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FrequenciesOfLimitedRangeArrayElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashing.FrequenciesOfLimitedRangeArrayElements" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NutsAndBolt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hashing.NutsAndBolt" />
       <module name="DSA" />
@@ -88,39 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortElementByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.SortElementByFrequency" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TripletFamily" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.TripletFamily" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrequenciesOfLimitedRangeArrayElements" />
+        <item itemvalue="Application.EqualArrays" />
         <item itemvalue="Application.NutsAndBolt" />
         <item itemvalue="Application.ArraySubsetOfAnother" />
         <item itemvalue="Application.FindingDistinctElement" />
-        <item itemvalue="Application.TripletFamily" />
-        <item itemvalue="Application.SortElementByFrequency" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +212,16 @@
           <url>file://$PROJECT_DIR$/src/com/hashing/FindingDistinctElement.java</url>
           <line>22</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hashing/FrequenciesOfLimitedRangeArrayElements.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hashing/FrequenciesOfLimitedRangeArrayElements.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
