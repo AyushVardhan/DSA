@@ -5,39 +5,36 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class RemoveAdjacentDuplicate {
+    public static String removeadjdup(String s) {
+        int l = s.length();
+        StringBuilder sbr = new StringBuilder();
+        int i = 0, j = 0;
+        boolean flag = false;
+        while (i < s.length()) {
+            flag = false;
+            j = i + 1;
+            while (j < s.length() && s.charAt(j) == s.charAt(i)) {
+                flag = true;
+                j++;
+            }
+            if (!flag)
+                sbr.append("" + s.charAt(i));
+            i = j;
+        }
+        if (sbr.length() == l)
+            return sbr.toString();
+        else
+            return removeadjdup(sbr.toString());
+    }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int tests = Integer.parseInt(br.readLine().trim());
-        while (tests-- > 0){
-            System.out.println(remove(br.readLine().trim()));;
-        }
-    }
 
-    static String removeUtil(String str, char last_removed) {
-        if (str.length() == 0 || str.length() == 1)//1
-            return str;
-        if (str.charAt(0) == str.charAt(1))//2
-        {
-            last_removed = str.charAt(0);
-            while (str.length() > 1 && str.charAt(0) == str.charAt(1))
-                str = str.substring(1, str.length());
-            str = str.substring(1, str.length());
-            return removeUtil(str, last_removed);
+        int t = Integer.parseInt(br.readLine());
+        String str;
+        while (t-- > 0) {
+            str = br.readLine();
+            System.out.println(removeadjdup(str));
         }
-        String rem_str = removeUtil(str.substring(1, str.length()), last_removed);//3
-        if (rem_str.length() != 0 && rem_str.charAt(0) == str.charAt(0))//4
-        {
-            last_removed = str.charAt(0);
-            return rem_str.substring(1, rem_str.length()); // Remove first character
-        }
-        if (rem_str.length() == 0 && last_removed == str.charAt(0))//5
-            return rem_str;
-        return (str.charAt(0) + rem_str);//6
-    }
-
-    static String remove(String str) {
-        char last_removed = '\0';
-        return removeUtil(str, last_removed);
     }
 }

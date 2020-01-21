@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/JosephusProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/PermutationOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/RemoveAdjacentDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/recursion/RemoveAdjacentDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/recursion/RemoveAdjacentDuplicate.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,6 +255,16 @@
           <url>file://$PROJECT_DIR$/src/com/matrix/MedianInRowWiseSorted.java</url>
           <line>35</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/recursion/RemoveAdjacentDuplicate.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/recursion/RemoveAdjacentDuplicate.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
