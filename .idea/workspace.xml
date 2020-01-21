@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/Handshakes_Catalan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/TowerOfHanio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/printPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/JosephusProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/PermutationOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/RemoveAdjacentDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,20 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TowerOfHanoi">
-    <configuration name="CountPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.matrix.CountPairs" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveAdjacentDuplicate">
     <configuration name="Handshakes_Catalan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.recursion.Handshakes_Catalan" />
       <module name="DSA" />
@@ -75,12 +62,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianInRowWiseSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.matrix.MedianInRowWiseSorted" />
+    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.JosephusProblem" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.matrix.*" />
+          <option name="PATTERN" value="com.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.PermutationOfString" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveAdjacentDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.RemoveAdjacentDuplicate" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.printPattern" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveAdjacentDuplicate" />
+        <item itemvalue="Application.PermutationOfString" />
+        <item itemvalue="Application.JosephusProblem" />
         <item itemvalue="Application.TowerOfHanoi" />
         <item itemvalue="Application.Handshakes_Catalan" />
-        <item itemvalue="Application.printPattern" />
-        <item itemvalue="Application.MedianInRowWiseSorted" />
-        <item itemvalue="Application.CountPairs" />
       </list>
     </recent_temporary>
   </component>
