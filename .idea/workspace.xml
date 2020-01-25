@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/FloodFillAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/NthFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/kthInTwoSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/powerFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FloodFillAlgo">
+  <component name="RunManager" selected="Application.kthInTwoSortedArray">
     <configuration name="FloodFillAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.recursion.FloodFillAlgo" />
       <module name="DSA" />
@@ -60,25 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.JosephusProblem" />
+    <configuration name="NthFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.divideConquer.NthFibonacci" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.PermutationOfString" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
+          <option name="PATTERN" value="com.divideConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.TowerOfHanoi" />
+    <configuration name="kthInTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.divideConquer.kthInTwoSortedArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
+          <option name="PATTERN" value="com.divideConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="powerFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.divideConquer.powerFunction" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.divideConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kthInTwoSortedArray" />
+        <item itemvalue="Application.NthFibonacci" />
+        <item itemvalue="Application.powerFunction" />
         <item itemvalue="Application.FloodFillAlgo" />
         <item itemvalue="Application.RemoveAdjacentDuplicate" />
-        <item itemvalue="Application.PermutationOfString" />
-        <item itemvalue="Application.JosephusProblem" />
-        <item itemvalue="Application.TowerOfHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +129,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dcfaf889-ff4f-4bf3-890f-e4dadc2535b0" name="Default Changelist" comment="" />
+      <changelist id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="" />
       <created>1571324932465</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -265,6 +267,21 @@
           <url>file://$PROJECT_DIR$/src/com/recursion/RemoveAdjacentDuplicate.java</url>
           <line>23</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/divideConquer/powerFunction.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/divideConquer/NthFibonacci.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/divideConquer/kthInTwoSortedArray.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
