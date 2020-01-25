@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/NthFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/kthInTwoSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/powerFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/ConvexHullBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/Median.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/PaintersPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/karatsuba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/searching/AllocateMinimumPages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,13 +50,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.kthInTwoSortedArray">
-    <configuration name="FloodFillAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.FloodFillAlgo" />
+  <component name="RunManager" selected="Application.PaintersPartition">
+    <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.divideConquer.Median" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
+          <option name="PATTERN" value="com.divideConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAdjacentDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.RemoveAdjacentDuplicate" />
+    <configuration name="PaintersPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.divideConquer.PaintersPartition" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
+          <option name="PATTERN" value="com.divideConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="karatsuba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.divideConquer.karatsuba" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.divideConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="powerFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.divideConquer.powerFunction" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.divideConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PaintersPartition" />
+        <item itemvalue="Application.karatsuba" />
+        <item itemvalue="Application.Median" />
         <item itemvalue="Application.kthInTwoSortedArray" />
         <item itemvalue="Application.NthFibonacci" />
-        <item itemvalue="Application.powerFunction" />
-        <item itemvalue="Application.FloodFillAlgo" />
-        <item itemvalue="Application.RemoveAdjacentDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -279,9 +281,19 @@
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/divideConquer/kthInTwoSortedArray.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="71" />
+          <url>file://$PROJECT_DIR$/src/com/divideConquer/karatsuba.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/divideConquer/PaintersPartition.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/divideConquer/PaintersPartition.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
