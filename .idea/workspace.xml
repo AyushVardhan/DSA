@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/ConvexHullBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/Median.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/PaintersPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/karatsuba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/searching/AllocateMinimumPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/convexHull/basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/divideConquer/InversionsInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/divideConquer/ConvexHullBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/divideConquer/ConvexHullBasic.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +30,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -50,9 +51,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PaintersPartition">
-    <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.divideConquer.Median" />
+  <component name="RunManager" selected="Application.basic">
+    <configuration name="ConvexHullBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.divideConquer.ConvexHullBasic" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.divideConquer.NthFibonacci" />
+    <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.divideConquer.Median" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -90,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.convexHull.basic" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.convexHull.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="karatsuba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.divideConquer.karatsuba" />
       <module name="DSA" />
@@ -103,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kthInTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.divideConquer.kthInTwoSortedArray" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.divideConquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.basic" />
+        <item itemvalue="Application.ConvexHullBasic" />
         <item itemvalue="Application.PaintersPartition" />
         <item itemvalue="Application.karatsuba" />
         <item itemvalue="Application.Median" />
-        <item itemvalue="Application.kthInTwoSortedArray" />
-        <item itemvalue="Application.NthFibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +295,16 @@
           <url>file://$PROJECT_DIR$/src/com/divideConquer/PaintersPartition.java</url>
           <line>46</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/divideConquer/ConvexHullBasic.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/divideConquer/ConvexHullBasic.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

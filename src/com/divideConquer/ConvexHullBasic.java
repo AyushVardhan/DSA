@@ -18,10 +18,10 @@ class ConvexHullBasic {
             int N=sc.nextInt();
             // int[]arr=getIntArr();
 
-            Pair[]pairs=new Pair[N];
+            Point[]pairs=new Point[N];
             int j=0;
             for(int i=0;i<N;i++){
-                pairs[i]=new Pair(sc.nextInt(),sc.nextInt());
+                pairs[i]=new Point(sc.nextInt(),sc.nextInt());
             }
 
             Arrays.sort(pairs,new Comp());
@@ -50,7 +50,7 @@ class ConvexHullBasic {
                     set.add(index);
                 }
             }
-            ArrayList<Pair>res=new ArrayList<>();
+            ArrayList<Point>res=new ArrayList<>();
             for(int i:set){
                 res.add(pairs[i]);
             }
@@ -66,8 +66,8 @@ class ConvexHullBasic {
             System.out.println(sb.toString());
         }
     }
-    static Pair[] getUnique(Pair[]P){
-        ArrayList<Pair>list=new ArrayList<>();
+    static Point[] getUnique(Point[]P){
+        ArrayList<Point>list=new ArrayList<>();
         int i=0;
         while(i<P.length){
             while(i<P.length-1 && isEqual(P[i],P[i+1])){
@@ -77,21 +77,21 @@ class ConvexHullBasic {
             i++;
         }
         i=0;
-        Pair[]arr=new Pair[list.size()];
-        for(Pair p:list){
+        Point[]arr=new Point[list.size()];
+        for(Point p:list){
             arr[i++]=p;
         }
         return arr;
     }
-    static boolean isEqual(Pair p1,Pair p2){
+    static boolean isEqual(Point p1, Point p2){
         if(p1.x==p2.x && p1.y==p2.y){
             return true;
         }
         return false;
     }
-    static boolean isLinear(Pair[]P){
-        Pair O=P[0];
-        Pair p1=P[1];
+    static boolean isLinear(Point[]P){
+        Point O=P[0];
+        Point p1=P[1];
         for(int i=2;i<P.length;i++){
             if(isLeft(O,p1,P[i])!=0){
                 return false;
@@ -99,7 +99,7 @@ class ConvexHullBasic {
         }
         return true;
     }
-    static int getNextLeft(Pair[]P,int origin,ArrayList<Integer>colinear){
+    static int getNextLeft(Point[]P, int origin, ArrayList<Integer>colinear){
         int index=0;
         while (index==origin){
             index++;
@@ -107,9 +107,9 @@ class ConvexHullBasic {
                 index=0;
             }
         }
-        Pair O=P[origin];
+        Point O=P[origin];
         // =new ArrayList<>();
-        Pair ref=P[index];
+        Point ref=P[index];
         for(int i=0;i<P.length;i++){
             if(i==origin||i==index){
                 continue;
@@ -131,10 +131,10 @@ class ConvexHullBasic {
         }
         return index;
     }
-    static boolean isBig(Pair O,Pair p1,Pair p2){
+    static boolean isBig(Point O, Point p1, Point p2){
         return (Math.pow(O.x-p1.x,2)+Math.pow(O.y-p1.y,2))>(Math.pow(O.x-p2.x,2)+Math.pow(O.y-p2.y,2));
     }
-    static int isLeft(Pair O ,Pair p1,Pair p2){
+    static int isLeft(Point O , Point p1, Point p2){
         int x1=p1.x-O.x;
         int y1=p1.y-O.y;
 
@@ -151,8 +151,8 @@ class ConvexHullBasic {
         }
     }
 
-    static void print(ArrayList<Pair> pairs) {
-        for (Pair p : pairs) {
+    static void print(ArrayList<Point> pairs) {
+        for (Point p : pairs) {
             System.out.println(p.toString());
         }
         System.out.println();
@@ -199,9 +199,9 @@ class Inc implements Comparator<Integer> {
     }
 }
 
-class Pair {
+class Point {
     int x,y;
-    public Pair(int x,int y){
+    public Point(int x, int y){
         this.x=x;
         this.y=y;
     }
@@ -209,8 +209,8 @@ class Pair {
         return String.format("%d %d",x,y);
     }
 }
-class Comp implements Comparator<Pair> {
-    public int compare(Pair p1, Pair p2) {
+class Comp implements Comparator<Point> {
+    public int compare(Point p1, Point p2) {
         if(p1.x==p2.x){
             return p1.y-p2.y;
         }
