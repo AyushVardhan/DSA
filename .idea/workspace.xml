@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/CountList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/NthIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/printLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/DeleteNNodesAfterMnodesInList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/RemoveKthNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedList/NthIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedList/NthIndex.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NthIndex">
-    <configuration name="ConvexHullBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.divideConquer.ConvexHullBasic" />
+  <component name="RunManager" selected="Application.DeleteNNodesAfterMnodesInList">
+    <configuration name="CountList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.CountList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.divideConquer.*" />
+          <option name="PATTERN" value="com.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.CountList" />
+    <configuration name="DeleteNNodesAfterMnodesInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.DeleteNNodesAfterMnodesInList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.convexHull.basic" />
+    <configuration name="RemoveKthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.RemoveKthNode" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.convexHull.*" />
+          <option name="PATTERN" value="com.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteNNodesAfterMnodesInList" />
+        <item itemvalue="Application.RemoveKthNode" />
         <item itemvalue="Application.NthIndex" />
         <item itemvalue="Application.CountList" />
         <item itemvalue="Application.printLinkedList" />
-        <item itemvalue="Application.basic" />
-        <item itemvalue="Application.ConvexHullBasic" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +320,11 @@
           <url>file://$PROJECT_DIR$/src/com/linkedList/printLinkedList.java</url>
           <line>35</line>
           <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/RemoveKthNode.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
