@@ -83,5 +83,14 @@ class GfG
     void deleteNode(Node node)
     {
         // Your code here
+        int tmp = 0; Node prev = null;
+        while (node.next!=null){
+            prev = node;
+            tmp = node.data;
+            node.data = node.next.data;
+            node.next.data = tmp;
+            node = node.next;
+        }
+        prev.next = null;
     }
 }

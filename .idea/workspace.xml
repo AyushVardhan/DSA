@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/DeleteNNodesAfterMnodesInList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/RemoveKthNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/RearrangeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/SegregateEvenOdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/linkedList/NthIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedList/NthIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedList/DeleteWithoutHeadPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedList/DeleteWithoutHeadPointer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteNNodesAfterMnodesInList">
-    <configuration name="CountList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.CountList" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReorderList">
     <configuration name="DeleteNNodesAfterMnodesInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedList.DeleteNNodesAfterMnodesInList" />
       <module name="DSA" />
@@ -78,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.NthIndex" />
+    <configuration name="DeleteWithoutHeadPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.DeleteWithoutHeadPointer" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveKthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.RemoveKthNode" />
+    <configuration name="RearrangeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.RearrangeLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.printLinkedList" />
+    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.ReorderList" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SegregateEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.SegregateEvenOdd" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReorderList" />
+        <item itemvalue="Application.SegregateEvenOdd" />
+        <item itemvalue="Application.RearrangeLinkedList" />
+        <item itemvalue="Application.DeleteWithoutHeadPointer" />
         <item itemvalue="Application.DeleteNNodesAfterMnodesInList" />
-        <item itemvalue="Application.RemoveKthNode" />
-        <item itemvalue="Application.NthIndex" />
-        <item itemvalue="Application.CountList" />
-        <item itemvalue="Application.printLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -325,6 +326,21 @@
           <url>file://$PROJECT_DIR$/src/com/linkedList/RemoveKthNode.java</url>
           <line>42</line>
           <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/DeleteWithoutHeadPointer.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/DeleteWithoutHeadPointer.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/ReorderList.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
