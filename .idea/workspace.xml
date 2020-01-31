@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/RearrangeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/ReorderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/SegregateEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/InsertInSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/PairwiseSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/PolynomialAddition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/linkedList/DeleteWithoutHeadPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedList/DeleteWithoutHeadPointer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +51,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReorderList">
-    <configuration name="DeleteNNodesAfterMnodesInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.DeleteNNodesAfterMnodesInList" />
+  <component name="RunManager" selected="Application.PairwiseSwap">
+    <configuration name="InsertInSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.InsertInSorted" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteWithoutHeadPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.DeleteWithoutHeadPointer" />
+    <configuration name="PairwiseSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.PairwiseSwap" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.RearrangeLinkedList" />
+    <configuration name="PolynomialAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.PolynomialAddition" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairwiseSwap" />
+        <item itemvalue="Application.InsertInSorted" />
+        <item itemvalue="Application.PolynomialAddition" />
         <item itemvalue="Application.ReorderList" />
         <item itemvalue="Application.SegregateEvenOdd" />
-        <item itemvalue="Application.RearrangeLinkedList" />
-        <item itemvalue="Application.DeleteWithoutHeadPointer" />
-        <item itemvalue="Application.DeleteNNodesAfterMnodesInList" />
       </list>
     </recent_temporary>
   </component>
