@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/InsertInSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/PairwiseSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/PolynomialAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/ReverseLinkedListInGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PairwiseSwap">
+  <component name="RunManager" selected="Application.isPalindrome">
     <configuration name="InsertInSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedList.InsertInSorted" />
       <module name="DSA" />
@@ -78,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolynomialAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.PolynomialAddition" />
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.ReverseLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.ReorderList" />
+    <configuration name="ReverseLinkedListInGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.ReverseLinkedListInGroup" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegregateEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.SegregateEvenOdd" />
+    <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.isPalindrome" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.isPalindrome" />
+        <item itemvalue="Application.ReverseLinkedListInGroup" />
+        <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.PairwiseSwap" />
         <item itemvalue="Application.InsertInSorted" />
-        <item itemvalue="Application.PolynomialAddition" />
-        <item itemvalue="Application.ReorderList" />
-        <item itemvalue="Application.SegregateEvenOdd" />
       </list>
     </recent_temporary>
   </component>
@@ -340,6 +340,21 @@
           <url>file://$PROJECT_DIR$/src/com/linkedList/ReorderList.java</url>
           <line>108</line>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/ReverseLinkedListInGroup.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/ReverseLinkedListInGroup.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/isPalindrome.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
