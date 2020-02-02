@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/ReverseLinkedListInGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/isPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/FlatteningALinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/IntersectionInYShaped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/RemoveDuplicateSortedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,9 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.isPalindrome">
-    <configuration name="InsertInSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.InsertInSorted" />
+  <component name="RunManager" selected="Application.RemoveDuplicateSortedList">
+    <configuration name="FlatteningALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.FlatteningALinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairwiseSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.PairwiseSwap" />
+    <configuration name="IntersectionInYShaped" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.IntersectionInYShaped" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.ReverseLinkedList" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.MergeSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListInGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.ReverseLinkedListInGroup" />
+    <configuration name="RemoveDuplicateSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.RemoveDuplicateSortedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +110,7 @@
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.linkedList.*" />
+          <option name="PATTERN" value="com.linkedList.Node" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicateSortedList" />
+        <item itemvalue="Application.IntersectionInYShaped" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.FlatteningALinkedList" />
         <item itemvalue="Application.isPalindrome" />
-        <item itemvalue="Application.ReverseLinkedListInGroup" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.PairwiseSwap" />
-        <item itemvalue="Application.InsertInSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -353,8 +354,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/linkedList/isPalindrome.java</url>
-          <line>75</line>
+          <line>80</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/IntersectionInYShaped.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
