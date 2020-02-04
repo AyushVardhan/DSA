@@ -1,5 +1,6 @@
 package com.linkedList;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DetectLoopInLinkedList {

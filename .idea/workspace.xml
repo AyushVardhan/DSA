@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/CheckIfCircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/DetectLoopInLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/RemoveDuplicateUnsortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/SortLinkedListOf012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/LengthOfLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/RemoveLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedList/DetectLoopInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedList/DetectLoopInLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DetectLoopInLinkedList">
+  <component name="RunManager" selected="Application.RemoveLoop">
     <configuration name="CheckIfCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedList.CheckIfCircularLinkedList" />
       <module name="DSA" />
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.RemoveDuplicateSortedList" />
+    <configuration name="LengthOfLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.LengthOfLoop" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateUnsortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.RemoveDuplicateUnsortedList" />
+    <configuration name="RemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.RemoveLoop" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLoop" />
+        <item itemvalue="Application.LengthOfLoop" />
         <item itemvalue="Application.DetectLoopInLinkedList" />
         <item itemvalue="Application.CheckIfCircularLinkedList" />
         <item itemvalue="Application.SortLinkedListOf012" />
-        <item itemvalue="Application.RemoveDuplicateUnsortedList" />
-        <item itemvalue="Application.RemoveDuplicateSortedList" />
       </list>
     </recent_temporary>
   </component>
@@ -371,6 +370,19 @@
           <url>file://$PROJECT_DIR$/src/com/linkedList/SortLinkedListOf012.java</url>
           <line>55</line>
           <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/LengthOfLoop.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/linkedList/printLinkedList.java</url>
+          <line>34</line>
+          <properties class="com.linkedList.printLinkedList" method="printList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
