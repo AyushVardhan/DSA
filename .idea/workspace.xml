@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/AddOneToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/CloneListwithNextRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/LinkedListIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/MergeTwoSortedLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/MultiplyLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/SortALinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedList/UnionOFLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,33 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CloneListwithNextRandomPointer">
-    <configuration name="AddOneToLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.AddOneToLinkedList" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.AddTwoNumbers" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UnionOFLinkedList">
     <configuration name="CloneListwithNextRandomPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedList.CloneListwithNextRandomPointer" />
       <module name="DSA" />
@@ -91,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.LengthOfLoop" />
+    <configuration name="LinkedListIntersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.LinkedListIntersection" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +80,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.RemoveLoop" />
+    <configuration name="MergeTwoSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.MergeTwoSortedLinkedList" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplyLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.MultiplyLists" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnionOFLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedList.UnionOFLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnionOFLinkedList" />
+        <item itemvalue="Application.LinkedListIntersection" />
+        <item itemvalue="Application.MergeTwoSortedLinkedList" />
+        <item itemvalue="Application.MultiplyLists" />
         <item itemvalue="Application.CloneListwithNextRandomPointer" />
-        <item itemvalue="Application.AddOneToLinkedList" />
-        <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.RemoveLoop" />
-        <item itemvalue="Application.LengthOfLoop" />
       </list>
     </recent_temporary>
   </component>
