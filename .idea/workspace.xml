@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/LinkedListIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/MergeTwoSortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/MultiplyLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/SortALinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/linkedList/UnionOFLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/PostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/PreorderTraversal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UnionOFLinkedList">
-    <configuration name="CloneListwithNextRandomPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.CloneListwithNextRandomPointer" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PreorderTraversal">
     <configuration name="LinkedListIntersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedList.LinkedListIntersection" />
       <module name="DSA" />
@@ -106,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PreorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tree.PreorderTraversal" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnionOFLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedList.UnionOFLinkedList" />
       <module name="DSA" />
@@ -121,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreorderTraversal" />
         <item itemvalue="Application.UnionOFLinkedList" />
         <item itemvalue="Application.LinkedListIntersection" />
         <item itemvalue="Application.MergeTwoSortedLinkedList" />
         <item itemvalue="Application.MultiplyLists" />
-        <item itemvalue="Application.CloneListwithNextRandomPointer" />
       </list>
     </recent_temporary>
   </component>
