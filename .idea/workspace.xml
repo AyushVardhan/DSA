@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tree/CountLeaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tree/HeightOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tree/LevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/CheckForBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/ChildSumParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/MinorTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +51,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountLeaves">
+  <component name="RunManager" selected="Application.CheckForBalanced">
+    <configuration name="CheckForBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tree.CheckForBalanced" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChildSumParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tree.ChildSumParent" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountLeaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tree.CountLeaves" />
       <module name="DSA" />
@@ -78,38 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tree.LevelOrderTraversal" />
+    <configuration name="MinorTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tree.MinorTree" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PreorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tree.PreorderTraversal" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnionOFLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedList.UnionOFLinkedList" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckForBalanced" />
+        <item itemvalue="Application.MinorTree" />
+        <item itemvalue="Application.ChildSumParent" />
         <item itemvalue="Application.CountLeaves" />
         <item itemvalue="Application.HeightOfTree" />
-        <item itemvalue="Application.LevelOrderTraversal" />
-        <item itemvalue="Application.PreorderTraversal" />
-        <item itemvalue="Application.UnionOFLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -382,9 +382,9 @@
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/tree/CountLeaves.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="138" />
+          <url>file://$PROJECT_DIR$/src/com/tree/ChildSumParent.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/linkedList/printLinkedList.java</url>
