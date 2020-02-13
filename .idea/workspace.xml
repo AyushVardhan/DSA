@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tree/CheckForBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tree/ChildSumParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tree/MinorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/NearestCommonAncestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckForBalanced">
+  <component name="RunManager" selected="Application.NearestCommonAncestor">
     <configuration name="CheckForBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tree.CheckForBalanced" />
       <module name="DSA" />
@@ -91,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeightOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tree.HeightOfTree" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinorTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tree.MinorTree" />
       <module name="DSA" />
@@ -117,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NearestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tree.NearestCommonAncestor" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NearestCommonAncestor" />
         <item itemvalue="Application.CheckForBalanced" />
         <item itemvalue="Application.MinorTree" />
         <item itemvalue="Application.ChildSumParent" />
         <item itemvalue="Application.CountLeaves" />
-        <item itemvalue="Application.HeightOfTree" />
       </list>
     </recent_temporary>
   </component>
@@ -380,11 +378,6 @@
           <url>file://$PROJECT_DIR$/src/com/linkedList/AddTwoNumbers.java</url>
           <line>57</line>
           <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/tree/ChildSumParent.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/linkedList/printLinkedList.java</url>
