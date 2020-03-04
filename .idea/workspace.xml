@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hashCode/GoogleBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hashCode/in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hashCode/knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hashCode/out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/META-INF/DSA.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/NearestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/NearestCommonAncestor.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,14 +25,21 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/hashCode" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -46,19 +49,7 @@
       <recent name="$PROJECT_DIR$/src/com/array" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.GoogleBooks">
+  <component name="RunManager" selected="Application.NearestCommonAncestor">
     <configuration name="CheckForBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tree.CheckForBalanced" />
       <module name="DSA" />
@@ -85,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinorTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tree.MinorTree" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dummy.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tree.*" />
+          <option name="PATTERN" value="com.dummy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NearestCommonAncestor" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.GoogleBooks" />
         <item itemvalue="Application.knapsack" />
-        <item itemvalue="Application.NearestCommonAncestor" />
         <item itemvalue="Application.CheckForBalanced" />
-        <item itemvalue="Application.MinorTree" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +153,60 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1583337582057">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583337582057" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1583076751783" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583086528506" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1583337582056">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1583337582056" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1583076751782" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1583086528505" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1583337582056">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1583337582056" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1583076751781" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1583086528504" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1583337582057">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1583337582057" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1583076751783" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1583086528506" />
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom" timestamp="1583337582058">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583337582058" />
+    <state width="1398" height="244" key="GridCell.Tab.1.center" timestamp="1583337582058">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1583337582058" />
+    <state width="1398" height="244" key="GridCell.Tab.1.left" timestamp="1583337582058">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1583337582058" />
+    <state width="1398" height="244" key="GridCell.Tab.1.right" timestamp="1583337582058">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1583337582058" />
+    <state x="221" y="23" width="1024" height="801" key="SettingsEditor" timestamp="1583076739283">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="221" y="23" width="1024" height="801" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1583076739283" />
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1583076520805">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1583076520805" />
+    <state x="458" y="181" key="extract.method.dialog" timestamp="1583336052363">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="458" y="181" key="extract.method.dialog/0.23.1440.797@0.23.1440.797" timestamp="1583336052363" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
