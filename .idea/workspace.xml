@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9454481-a519-42b0-8ebe-1410b623f1d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/tree/DiameterOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/PrintPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/META-INF/DSA.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tree/NearestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/NearestCommonAncestor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +50,9 @@
       <recent name="$PROJECT_DIR$/src/com/array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NearestCommonAncestor">
-    <configuration name="CheckForBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tree.CheckForBalanced" />
+  <component name="RunManager" selected="Application.DiameterOfTree">
+    <configuration name="DiameterOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tree.DiameterOfTree" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hashCode.knapsack" />
+    <configuration name="PrintPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tree.PrintPath" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hashCode.*" />
+          <option name="PATTERN" value="com.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiameterOfTree" />
+        <item itemvalue="Application.PrintPath" />
         <item itemvalue="Application.NearestCommonAncestor" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.GoogleBooks" />
-        <item itemvalue="Application.knapsack" />
-        <item itemvalue="Application.CheckForBalanced" />
       </list>
     </recent_temporary>
   </component>
@@ -155,46 +156,46 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1583337582057">
+    <state width="1398" height="194" key="GridCell.Tab.0.bottom" timestamp="1583424111961">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583337582057" />
+    <state width="1398" height="194" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583424111961" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1583076751783" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1583086528506" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1583337582056">
+    <state width="1398" height="194" key="GridCell.Tab.0.center" timestamp="1583424111960">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1583337582056" />
+    <state width="1398" height="194" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1583424111960" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1583076751782" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1583086528505" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1583337582056">
+    <state width="1398" height="194" key="GridCell.Tab.0.left" timestamp="1583424111959">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1583337582056" />
+    <state width="1398" height="194" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1583424111959" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1583076751781" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1583086528504" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1583337582057">
+    <state width="1398" height="194" key="GridCell.Tab.0.right" timestamp="1583424111961">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1583337582057" />
+    <state width="1398" height="194" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1583424111961" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1583076751783" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1583086528506" />
-    <state width="1398" height="244" key="GridCell.Tab.1.bottom" timestamp="1583337582058">
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom" timestamp="1583419464949">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583337582058" />
-    <state width="1398" height="244" key="GridCell.Tab.1.center" timestamp="1583337582058">
+    <state width="1398" height="244" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583419464949" />
+    <state width="1398" height="244" key="GridCell.Tab.1.center" timestamp="1583419464948">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1583337582058" />
-    <state width="1398" height="244" key="GridCell.Tab.1.left" timestamp="1583337582058">
+    <state width="1398" height="244" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1583419464948" />
+    <state width="1398" height="244" key="GridCell.Tab.1.left" timestamp="1583419464947">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1583337582058" />
-    <state width="1398" height="244" key="GridCell.Tab.1.right" timestamp="1583337582058">
+    <state width="1398" height="244" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1583419464947" />
+    <state width="1398" height="244" key="GridCell.Tab.1.right" timestamp="1583419464949">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1583337582058" />
+    <state width="1398" height="244" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1583419464949" />
     <state x="221" y="23" width="1024" height="801" key="SettingsEditor" timestamp="1583076739283">
       <screen x="0" y="23" width="1440" height="801" />
     </state>

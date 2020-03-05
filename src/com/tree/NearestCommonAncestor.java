@@ -220,6 +220,4 @@ public class BT_NoParentPtr_Solution1
         System.out.println("LCA(2, 4): " + tree.findLCA(2,4));
 
     }
-}
-
  */
