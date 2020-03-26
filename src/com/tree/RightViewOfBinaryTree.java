@@ -3,15 +3,13 @@ package com.tree;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class PrintPath {
+public class RightViewOfBinaryTree {
+    static Node buildTree(String str){
 
-    static Node buildTree(String str) {
-
-        if (str.length() == 0 || str.charAt(0) == 'N') {
+        if(str.length()==0 || str.charAt(0)=='N'){
             return null;
         }
 
@@ -26,7 +24,7 @@ public class PrintPath {
         // Starting from the second element
 
         int i = 1;
-        while (queue.size() > 0 && i < ip.length) {
+        while(queue.size()>0 && i < ip.length) {
 
             // Get and remove the front of the queue
             Node currNode = queue.peek();
@@ -36,7 +34,7 @@ public class PrintPath {
             String currVal = ip[i];
 
             // If the left child is not null
-            if (!currVal.equals("N")) {
+            if(!currVal.equals("N")) {
 
                 // Create the left child for the current node
                 currNode.left = new Node(Integer.parseInt(currVal));
@@ -46,13 +44,13 @@ public class PrintPath {
 
             // For the right child
             i++;
-            if (i >= ip.length)
+            if(i >= ip.length)
                 break;
 
             currVal = ip[i];
 
             // If the right child is not null
-            if (!currVal.equals("N")) {
+            if(!currVal.equals("N")) {
 
                 // Create the right child for the current node
                 currNode.right = new Node(Integer.parseInt(currVal));
@@ -65,43 +63,51 @@ public class PrintPath {
 
         return root;
     }
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int t = Integer.parseInt(br.readLine());
-
-        while (t-- > 0) {
-            String input[] = br.readLine().trim().split(" ");
-            int a = Integer.parseInt(input[0]);
-            String s = br.readLine();
-            Node root = buildTree(s);
-            ArrayList<Node> list = new ArrayList<>();
-            findPath(root, a, list);
-            System.out.println(list.size());
-
-            for (Node node : list){
-                System.out.print(node.data+" ");
-            }
+    void inOrder(Node node) {
+        if (node == null) {
+            return;
         }
+
+        inOrder(node.left);
+        System.out.print(node.data + " ");
+
+        inOrder(node.right);
     }
 
-    private static boolean findPath(Node root, int a, ArrayList<Node> list) {
+    public static void main (String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int t=Integer.parseInt(br.readLine());
+
+        while(t-- > 0){
+            String s = br.readLine();
+            Node root = buildTree(s);
+            Tree1 tree = new Tree1();
+            tree.rightView(root);
+            System.out.println();
+
+        }
+    }
+}
+
+class Tree1{
+    int superL = 0;
+
+    void rightView(Node node) {
+        //add code here.
+        util(node, 1);
+    }
+
+    private void util(Node root, int level) {
         if (root == null)
-            return false;
+            return;
 
-        list.add(root);
+        if (level > superL) {
+            System.out.print(root.data + " ");
+            superL = level;
+        }
 
-        if (root.data == a)
-            return true;
-
-        if (findPath(root.left,a,list))
-            return true;
-
-        if (findPath(root.right,a,list))
-            return true;
-
-        list.remove(root);
-        return false;
+        util(root.right,level+1);
+        util(root.left,level+1);
     }
 }

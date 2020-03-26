@@ -1,14 +1,11 @@
 package com.tree;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.io.*;
+import java.util.*;
 
-public class PrintPath {
-
+public class LeftViewOfBinaryTree {
     static Node buildTree(String str) {
 
         if (str.length() == 0 || str.charAt(0) == 'N') {
@@ -66,42 +63,49 @@ public class PrintPath {
         return root;
     }
 
+    static void printInorder(Node root) {
+        if (root == null)
+            return;
+
+        printInorder(root.left);
+        System.out.print(root.data + " ");
+
+        printInorder(root.right);
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int t = Integer.parseInt(br.readLine());
 
-        while (t-- > 0) {
-            String input[] = br.readLine().trim().split(" ");
-            int a = Integer.parseInt(input[0]);
+        while (t > 0) {
             String s = br.readLine();
             Node root = buildTree(s);
-            ArrayList<Node> list = new ArrayList<>();
-            findPath(root, a, list);
-            System.out.println(list.size());
-
-            for (Node node : list){
-                System.out.print(node.data+" ");
-            }
+            Tree g = new Tree();
+            g.leftView(root);
+            System.out.println();
+            t--;
         }
     }
+}
 
-    private static boolean findPath(Node root, int a, ArrayList<Node> list) {
+class Tree {
+    int superL = 0;
+
+    void leftView(Node root) {
+        util(root, 1);
+    }
+
+    private void util(Node root, int level) {
         if (root == null)
-            return false;
+            return;
 
-        list.add(root);
+        if (level > superL) {
+            System.out.print(root.data + " ");
+            superL = level;
+        }
 
-        if (root.data == a)
-            return true;
-
-        if (findPath(root.left,a,list))
-            return true;
-
-        if (findPath(root.right,a,list))
-            return true;
-
-        list.remove(root);
-        return false;
+        util(root.left,level+1);
+        util(root.right,level+1);
     }
 }

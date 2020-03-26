@@ -3,11 +3,10 @@ package com.tree;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class PrintPath {
+public class DiameterPractise {
 
     static Node buildTree(String str) {
 
@@ -46,8 +45,7 @@ public class PrintPath {
 
             // For the right child
             i++;
-            if (i >= ip.length)
-                break;
+            if (i >= ip.length) break;
 
             currVal = ip[i];
 
@@ -67,41 +65,36 @@ public class PrintPath {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br =
+                new BufferedReader(new InputStreamReader(System.in));
 
         int t = Integer.parseInt(br.readLine());
 
-        while (t-- > 0) {
-            String input[] = br.readLine().trim().split(" ");
-            int a = Integer.parseInt(input[0]);
+        while (t > 0) {
             String s = br.readLine();
             Node root = buildTree(s);
-            ArrayList<Node> list = new ArrayList<>();
-            findPath(root, a, list);
-            System.out.println(list.size());
-
-            for (Node node : list){
-                System.out.print(node.data+" ");
-            }
+            System.out.println(diameter(root));
+            t--;
         }
     }
 
-    private static boolean findPath(Node root, int a, ArrayList<Node> list) {
+    static int dia = 0;
+
+    private static int diameter(Node root) {
+        util(root);
+        return dia;
+    }
+
+    private static int util(Node root) {
         if (root == null)
-            return false;
+            return 0;
 
-        list.add(root);
+        int lHeight = util(root.left);
+        int rHeight = util(root.right);
 
-        if (root.data == a)
-            return true;
+        if ((lHeight + rHeight + 1) > dia)
+            dia = lHeight + rHeight + 1;
 
-        if (findPath(root.left,a,list))
-            return true;
-
-        if (findPath(root.right,a,list))
-            return true;
-
-        list.remove(root);
-        return false;
+        return 1 + Math.max(lHeight, rHeight);
     }
 }
