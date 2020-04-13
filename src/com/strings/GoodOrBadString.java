@@ -48,28 +48,18 @@ public class GoodOrBadString {
             if (inp.charAt(i) == 'a' || inp.charAt(i) == 'e' || inp.charAt(i) == 'i' || inp.charAt(i) == 'o' || inp.charAt(i) == 'u') {
                 vowel++;
                 cons = 0;
-                if (vowel > 5) {
-                    return false;
-                }
             } else if (inp.charAt(i) == '?') {
                 vowel++;
                 cons++;
-                if (vowel > 5 || cons > 3) {
-                    return false;
-                }
             } else {
                 cons++;
                 vowel =0;
-                if (cons > 3){
-                    return false;
-                }
+            }
+
+            if (vowel > 5 || cons > 3) {
+                return false;
             }
         }
-
-        if (cons > 3 || vowel > 5){
-            return false;
-        }else {
-            return true;
-        }
+        return true;
     }
 }
