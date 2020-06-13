@@ -1,11 +1,10 @@
 package com.matrix;
 
-import java.io.IOException;
 import java.util.HashSet;
 import java.util.Scanner;
 
 public class IsSudukoValid {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int tests = in.nextInt();
 
