@@ -1,4 +1,4 @@
-package com.leetcode.array;
+package com.Leetcode;
 
 public class SearchInsertPosition {
     public static void main(String[] args) {
