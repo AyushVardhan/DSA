@@ -43,4 +43,31 @@ public class ThreeSums {
         }
         return lst;
     }
+
+    private static List<List<Integer>> threeSumMap(int[] nums) {
+        Set<List<Integer>> lst = new HashSet<>();
+        if (nums.length < 3)
+            return new ArrayList<>(lst);
+        Arrays.sort(nums);
+        for (int i = 0; i <= nums.length - 3; i++) {
+            if (i > 0 && nums[i] == nums[i - 1])
+                continue;
+            int l = i + 1, r = nums.length - 1, sum = -nums[i];
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int k = l; k <= r; k++) {
+                int diff = sum - nums[k];
+                if (map.containsKey(diff)) {
+                    List<Integer> lst_tmp= new ArrayList<>();
+                    lst_tmp.add(nums[i]);
+                    lst_tmp.add(nums[k]);
+                    lst_tmp.add(nums[map.get(diff)]);
+                    lst.add(lst_tmp);
+                } else {
+                    map.put(nums[k], k);
+                }
+            }
+
+        }
+        return new ArrayList<>(lst);
+    }
 }
