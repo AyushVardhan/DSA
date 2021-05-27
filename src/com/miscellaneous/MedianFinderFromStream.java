@@ -1,4 +1,4 @@
-package com;
+package com.miscellaneous;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
