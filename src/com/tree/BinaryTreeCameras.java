@@ -42,25 +42,4 @@ public class BinaryTreeCameras {
         // 1 : parent node & camera required
         // 2 : already covered without camera at this node
     }
-
-    static private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-            return;
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-            return;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }
