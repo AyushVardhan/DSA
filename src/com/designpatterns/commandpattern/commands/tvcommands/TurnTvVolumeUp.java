@@ -1,7 +1,7 @@
-package com.designpatterns.command.commands.tvcommands;
+package com.designpatterns.commandpattern.commands.tvcommands;
 
-import com.designpatterns.command.commands.Command;
-import com.designpatterns.command.device.machine.ElectronicDevice;
+import com.designpatterns.commandpattern.commands.Command;
+import com.designpatterns.commandpattern.device.machine.ElectronicDevice;
 
 public class TurnTvVolumeUp extends Command {
 

@@ -1,8 +1,8 @@
-package com.designpatterns.strategy;
+package com.designpatterns.strategypattern;
 
-import com.designpatterns.strategy.playmedia.FacebookFriends;
-import com.designpatterns.strategy.playmedia.GooglePlusFriends;
-import com.designpatterns.strategy.playmedia.InstaFriends;
+import com.designpatterns.strategypattern.playmedia.FacebookFriends;
+import com.designpatterns.strategypattern.playmedia.GooglePlusFriends;
+import com.designpatterns.strategypattern.playmedia.InstaFriends;
 
 public class Client {
     public static void main(String[] args) {

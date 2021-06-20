@@ -1,4 +1,4 @@
-package com.designpatterns.command.device.machine;
+package com.designpatterns.commandpattern.device.machine;
 
 public class Radio implements ElectronicDevice {
     @Override

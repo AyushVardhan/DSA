@@ -1,4 +1,4 @@
-package com.designpatterns.strategy.playmedia;
+package com.designpatterns.strategypattern.playmedia;
 
 public class InstaFriends implements ConnectFriends {
     @Override

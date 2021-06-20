@@ -1,4 +1,4 @@
-package com.designpatterns.strategy.playmedia;
+package com.designpatterns.strategypattern.playmedia;
 
 public interface ConnectFriends {
     public void connectTo(String name);

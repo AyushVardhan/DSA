@@ -1,6 +1,6 @@
-package com.designpatterns.command.device;
+package com.designpatterns.commandpattern.device;
 
-import com.designpatterns.command.commands.Command;
+import com.designpatterns.commandpattern.commands.Command;
 
 public class DeviceButton {
     Command command;

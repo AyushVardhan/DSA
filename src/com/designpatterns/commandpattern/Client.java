@@ -1,16 +1,16 @@
-package com.designpatterns.command;
+package com.designpatterns.commandpattern;
 
-import com.designpatterns.command.commands.radiocommands.TurnRadioOff;
-import com.designpatterns.command.commands.radiocommands.TurnRadioOn;
-import com.designpatterns.command.commands.radiocommands.TurnRadioVolDown;
-import com.designpatterns.command.commands.radiocommands.TurnRadioVolUp;
-import com.designpatterns.command.commands.tvcommands.TurnTvOff;
-import com.designpatterns.command.commands.tvcommands.TurnTvOn;
-import com.designpatterns.command.commands.tvcommands.TurnTvVolumeDown;
-import com.designpatterns.command.commands.tvcommands.TurnTvVolumeUp;
-import com.designpatterns.command.device.machine.Radio;
-import com.designpatterns.command.device.machine.Television;
-import com.designpatterns.command.device.DeviceButton;
+import com.designpatterns.commandpattern.commands.radiocommands.TurnRadioOff;
+import com.designpatterns.commandpattern.commands.radiocommands.TurnRadioOn;
+import com.designpatterns.commandpattern.commands.radiocommands.TurnRadioVolDown;
+import com.designpatterns.commandpattern.commands.radiocommands.TurnRadioVolUp;
+import com.designpatterns.commandpattern.commands.tvcommands.TurnTvOff;
+import com.designpatterns.commandpattern.commands.tvcommands.TurnTvOn;
+import com.designpatterns.commandpattern.commands.tvcommands.TurnTvVolumeDown;
+import com.designpatterns.commandpattern.commands.tvcommands.TurnTvVolumeUp;
+import com.designpatterns.commandpattern.device.machine.Radio;
+import com.designpatterns.commandpattern.device.machine.Television;
+import com.designpatterns.commandpattern.device.DeviceButton;
 
 public class Client {
 

@@ -1,6 +1,6 @@
-package com.designpatterns.strategy;
+package com.designpatterns.strategypattern;
 
-import com.designpatterns.strategy.playmedia.ConnectFriends;
+import com.designpatterns.strategypattern.playmedia.ConnectFriends;
 
 public class SocialMedia {
     private ConnectFriends friends;
