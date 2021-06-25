@@ -1,4 +1,4 @@
-package com.programming.challange;
+package com.programming.challange.leetcode;
 
 import javafx.util.Pair;
 
